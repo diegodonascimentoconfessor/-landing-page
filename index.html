@@ -39,5 +39,29 @@
     <footer class="footer">
         <p>&copy; 2024 Autopark. Todos os direitos reservados.</p>
     </footer>
+    <script>
+        const plans = document.querySelectorAll('.plan');
+        let currentIndex = 0;
+    
+        function animateBorder() {
+            // Remove a classe de borda animada de todos os planos
+            plans.forEach(plan => plan.classList.remove('animated-border'));
+    
+            // Adiciona a classe ao plano atual
+            plans[currentIndex].classList.add('animated-border');
+    
+            // Avança para o próximo plano (ou volta ao início)
+            currentIndex = (currentIndex + 1) % plans.length;
+        }
+    
+        // Chama a função a cada 5 segundos
+        setInterval(animateBorder, 5000);
+    
+        // Inicia a animação
+        animateBorder();
+    </script>
+    
 </body>
 </html>
+<script>
+    

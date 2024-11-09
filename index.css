@@ -80,7 +80,7 @@ h1 {
 
 .featured {
     background-color: #0f2b3a;
-    border: 2px solid #ffca28;
+    border: 2px solid #f1ede1;
 }
 
 /* Rodapé */
@@ -90,4 +90,8 @@ h1 {
     margin-top: 20px;
     border-top: 1px solid #333;
     color: #bbb;
+}
+
+.animated-border {
+    border-color: #ff6600 !important; /* Cor da borda animada */
 }

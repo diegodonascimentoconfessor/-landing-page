@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <img src="logo.png" alt="Logo Autopark" class="logo">
+        <img src="Capturar.JPG" alt="Logo Autopark" class="logo">
         <h1>Autopark - Confiança & Segurança</h1>
     </header>
     
@@ -16,9 +16,8 @@
         <h2>Bem-vindo à Autopark</h2>
         <p>Seu carro merece o melhor! Na Autopark, oferecemos segurança e confiança para seu veículo.</p>
     </section>
-    
+    <h2>Nossos Planos</h2>
     <section class="plans">
-        <h2>Nossos Planos</h2>
         <div class="plan">
             <h3>Plano Básico</h3>
             <p>Proteção essencial para seu veículo.</p>
@@ -39,29 +38,19 @@
     <footer class="footer">
         <p>&copy; 2024 Autopark. Todos os direitos reservados.</p>
     </footer>
+    
     <script>
         const plans = document.querySelectorAll('.plan');
         let currentIndex = 0;
     
         function animateBorder() {
-            // Remove a classe de borda animada de todos os planos
             plans.forEach(plan => plan.classList.remove('animated-border'));
-    
-            // Adiciona a classe ao plano atual
             plans[currentIndex].classList.add('animated-border');
-    
-            // Avança para o próximo plano (ou volta ao início)
             currentIndex = (currentIndex + 1) % plans.length;
         }
     
-        // Chama a função a cada 5 segundos
         setInterval(animateBorder, 5000);
-    
-        // Inicia a animação
         animateBorder();
     </script>
-    
 </body>
 </html>
-<script>
-    

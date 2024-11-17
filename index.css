@@ -42,10 +42,6 @@ h2 {
 .intro h2 {
     color: #00c8ff;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 79d025d608ed9670730191cd137e5344ba3100b9
 .intro p {
     font-size: 1.1em;
     color: #bbb;
@@ -90,7 +86,6 @@ h2 {
     background-color: #0f2b3a;
     border: 2px solid #00c8ff;
 }
-<<<<<<< HEAD
 
 /* Estilização da imagem principal */
 .logo-main {
@@ -102,8 +97,7 @@ h2 {
     border: 2px solid #00c8ff;
 }
 
-=======
->>>>>>> 79d025d608ed9670730191cd137e5344ba3100b9
+
 /* Rodapé */
 .footer {
     text-align: center;
@@ -111,11 +105,9 @@ h2 {
     border-top: 1px solid #333;
     color: #bbb;
 }
-<<<<<<< HEAD
+
 
 /* Borda animada */
-=======
->>>>>>> 79d025d608ed9670730191cd137e5344ba3100b9
 .animated-border {
     border-color: #f8f2eee1 !important; /* Cor da borda animada */
 }

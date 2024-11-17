@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 body {
     background-color: #000;
     color: #f0f0f0;
@@ -13,19 +12,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 /* Cabeçalho */
 .header {
     text-align: center;
     padding: 20px;
 }
-
 .logo {
     width: '100%';
     height: 300px;
     margin-bottom: 10px;
 }
-
 h1 {
     color: #00c8ff;
     font-size: 2em;
@@ -46,7 +42,10 @@ h2 {
 .intro h2 {
     color: #00c8ff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 79d025d608ed9670730191cd137e5344ba3100b9
 .intro p {
     font-size: 1.1em;
     color: #bbb;
@@ -60,9 +59,10 @@ h2 {
 /* Planos */
 .plans {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     justify-content: center;
     margin: 20px;
+    margin-top: 80px;
 }
 
 .plan {
@@ -73,17 +73,14 @@ h2 {
     width: 200px;
     text-align: center;
 }
-
 .plan h3 {
     color: #00c8ff;
     margin-bottom: 10px;
 }
-
 .plan p {
     color: #00c8ff;
     margin: 10px 0;
 }
-
 .price {
     font-size: 1.5em;
     color: #00c8ff;
@@ -93,6 +90,7 @@ h2 {
     background-color: #0f2b3a;
     border: 2px solid #00c8ff;
 }
+<<<<<<< HEAD
 
 /* Estilização da imagem principal */
 .logo-main {
@@ -104,6 +102,8 @@ h2 {
     border: 2px solid #00c8ff;
 }
 
+=======
+>>>>>>> 79d025d608ed9670730191cd137e5344ba3100b9
 /* Rodapé */
 .footer {
     text-align: center;
@@ -111,8 +111,11 @@ h2 {
     border-top: 1px solid #333;
     color: #bbb;
 }
+<<<<<<< HEAD
 
 /* Borda animada */
+=======
+>>>>>>> 79d025d608ed9670730191cd137e5344ba3100b9
 .animated-border {
     border-color: #f8f2eee1 !important; /* Cor da borda animada */
 }

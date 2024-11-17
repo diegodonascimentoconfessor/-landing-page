@@ -21,7 +21,8 @@ body {
 }
 
 .logo {
-    width: 150px;
+    width: '100%';
+    height: 300px;
     margin-bottom: 10px;
 }
 
@@ -29,6 +30,7 @@ h1 {
     color: #00c8ff;
     font-size: 2em;
 }
+
 h2 {
     color: #00c8ff;
     font-size: 2em;
@@ -43,13 +45,7 @@ h2 {
 
 .intro h2 {
     color: #00c8ff;
-
-
 }
-
-
-
-
 
 .intro p {
     font-size: 1.1em;
@@ -59,9 +55,7 @@ h2 {
 .plans h2 {
     text-align: center;
     color: #00c8ff;
-   
 }
-
 
 /* Planos */
 .plans {
@@ -100,15 +94,33 @@ h2 {
     border: 2px solid #00c8ff;
 }
 
+/* Estilização da imagem principal */
+.logo-main {
+    width: 100%; /* Adaptação ao layout */
+    max-width: 700px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    border: 2px solid #00c8ff;
+}
+
 /* Rodapé */
 .footer {
     text-align: center;
     padding: 10px;
-   
     border-top: 1px solid #333;
     color: #bbb;
 }
 
+/* Borda animada */
 .animated-border {
     border-color: #f8f2eee1 !important; /* Cor da borda animada */
+}
+/* Estilização da imagem principal (hero image) */
+.hero-image {
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 80vh; /* Ocupa 80% da altura da janela */
+    object-fit: cover; /* Garante que a imagem preencha o espaço proporcionalmente */
+    margin: 0; /* Remove margens ao redor da imagem */
+    display: block; /* Remove comportamento inline */
 }
